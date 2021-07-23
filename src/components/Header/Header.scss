@@ -1,0 +1,70 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(165, 0, 165);
+  padding: 10px 80px;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+
+  .logo{
+    height: 35px;
+    width: auto;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+
+  .myAccounts{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+
+  .more{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+
+  .search{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    .searchBar{
+      font-family: 'Roboto', 'Arial', Sans-Serif;
+      align-items: center;
+      height: 35px;
+      width: 80%;
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: 400;
+      padding-left: 30px;
+      letter-spacing: 1px;
+    }
+    .searchBar:hover{
+      outline: none;
+    }
+  }
+
+  .cartDiv{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    .cartIcon{
+      height: 30px;
+      width: 30px;
+      margin: 0 5px;
+    }
+
+    p{
+      font-size: 15px;
+      padding-right: 2px;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .loginHeader{
+    margin: 10px 0;
+    color: rgb(114, 0, 114);
+  }
+
+  .phoneLogin{  
+    background-color: white;
+    padding: 20px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    border:1px solid rgb(214,217,220) !important;
+    box-shadow: rgb(214,217,220) 0px 0px 1px 1px;
+
+    .loginButton{
+      margin: 10px 0;
+      padding: 10px;
+      font-weight: 500;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 4px;
+      background-color: rgb(165, 0, 165);
+      color: white;
+    }
+
+    & .MuiTextField-root{
+      & fieldset{
+        border-color: rgb(165, 0, 165);
+        border-width: 2px;
+      }
+      & label{
+        color:rgb(165, 0, 165);
+        font-weight: 700;
+      }
+    }
+  }
+
+  .googleLoginIcon{
+    width: 200px;
+    height: auto;
+    border:solid 1px rgb(214,217,220);
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgb(214,217,220);
+  }
+
+  .googleLoginIcon:hover{
+    border:rgba(165, 0, 165, 0.5) solid 3px;
+    box-shadow: 0px 0px;
+  }
+
+  .orText{
+    margin: 10px 0;
+  }
+}
+

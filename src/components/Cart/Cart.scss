@@ -1,0 +1,52 @@
+.cart{
+  padding: 5vh 8vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(230, 230, 230);
+  align-items: flex-start;
+}
+
+.leftSection{
+  flex-basis: 70%;
+  background-color: white;
+  margin-right: 4vh;
+  border: rgb(212,212,212) solid 1px;
+  box-shadow: 2px 2px 2px #c5c5c5;  
+}
+
+.totalPriceSection{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  background-color: white;
+  border: rgb(212,212,212) solid 1px;
+  box-shadow: 2px 2px 2px #c5c5c5;
+  border-radius: 3px;
+
+  .totalPriceHeader{
+    padding: 2vh 5vh;
+    border-bottom: rgb(212,212,212) solid 1px;
+  }
+
+  .totalPriceContent{
+    margin: 2vh 5vh;
+
+    .priceDetails, .discountDetails, .deliveryDetails, .totalAmountDetails{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2vh 0;
+    }
+
+    .totalAmountDetails{
+      padding: 3vh 0;
+      border-top: rgb(212,212,212) dashed 1px;
+      border-bottom: rgb(212,212,212) dashed 1px;
+    }
+    .discountSentence{
+      padding: 3vh 0;
+      text-align: center;
+    }
+  }
+}
+

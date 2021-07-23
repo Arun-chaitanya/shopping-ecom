@@ -1,0 +1,65 @@
+.addressForm{
+  width: 70%;
+
+  & .MuiTextField-root{
+    & fieldset{
+      border-color:rgb(224,224,224);
+      border-width: 1px;
+      border-radius: 2px;
+    }
+
+    &:hover fieldset{
+      border-color: rgb(165, 0, 165);
+      border-width: 1px;
+      border-radius: 2px;
+    }
+
+    &:focus fieldset{
+      border-width: 1px;
+      border-radius: 2px;
+    }
+
+    &:focus label{
+      color:rgb(165, 0, 165) !important;
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    &:hover label{
+      color:rgb(165, 0, 165);
+      font-weight: 15px;
+    }
+    
+    & label{
+      color:rgb(187,187,187);
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+  .updateAddress, .cancelUpdate{
+    padding: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(165, 0, 165);
+    color: white;
+  }
+  .updateAddress{
+    margin-right: 30px;
+  }
+}
+
+.addressFormRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.textfield:nth-child(1){
+  margin-right: 10px;
+}
+.addressForm :nth-last-child(1){
+  margin-bottom: 0px;
+}

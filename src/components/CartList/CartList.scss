@@ -1,0 +1,8 @@
+.cartList{
+  display: flex;
+  flex-direction: column;
+  .cartItemTab{  
+    padding: 1.5rem;
+    border-bottom: rgb(212,212,212) solid 1px;
+  }
+}
